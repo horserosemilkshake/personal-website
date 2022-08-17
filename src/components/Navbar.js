@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import icon from './images/logo.png';
 import { Linkedin, Instagram } from 'react-bootstrap-icons';
 

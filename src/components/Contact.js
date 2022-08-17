@@ -1,5 +1,5 @@
-import React, { Component, useRef, useState } from 'react';
-import { motion, useAnimation } from 'framer-motion';
+import React, { useRef, useState } from 'react';
+import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
 export default function Navbar() {
@@ -14,7 +14,7 @@ export default function Navbar() {
         emailjs.sendForm('service_p942vta', 'template_asfmhls', form.current, '7QriakcO2f8e0Qgb7')
             .then((result) => {
                 console.log(result.text);
-                alert("Your message is sent to my mailbox. " + "It's nice to know you, " + from + ". " + "I will get back to you by replying to " + email + " within 3 working days. Keep in touch!");
+                alert("Your message is sent to my mailbox. ".concat("It's nice to know you, ").concat(from).concat(". ").concat("I will get back to you by replying to ").concat(email).concat(" within 3 working days. Keep in touch!"));
             }, (error) => {
                 console.log(error.text);
                 alert("Sorry, something went wrong. Please resend your message.");

@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Project from './Project';
-import { motion, useAnimation, useScroll } from 'framer-motion';
+import { motion } from 'framer-motion';
 import Contact from './Contact.js';
 
 export default function Article() {
