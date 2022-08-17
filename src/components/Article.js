@@ -54,6 +54,9 @@ export default function Article() {
                     <motion.li initial={{ opacity: 0, scale: 1, }}
                         animate={{ opacity: 1, scale: 1, }}
                         transition={{ duration: 2.0 }}><Project title="EFI for Bootloading Mac OS on x86 Machine (for Academic Purposes only)" lifecycle="Completed" tech="Well... A lot" link="https://github.com/horserosemilkshake/H410M-E-Opencore-0.6.5-EFI"></Project></motion.li>
+                    <motion.li initial={{ opacity: 0, scale: 1, }}
+                        animate={{ opacity: 1, scale: 1, }}
+                        transition={{ duration: 2.0 }}><Project title="Currency Coversion Rate Calculator" lifecycle="Completed" tech="React.js + Axios + Node.js" link="https://github.com/horserosemilkshake/Currency-Exchange-Rate-Calculator"></Project></motion.li>
                 </ul>
                 <br></br>
             </motion.div>
@@ -71,15 +74,10 @@ export default function Article() {
             </motion.div>
 
             <motion.div>
-                <h2 className='text-2xl antialiased'>My Thoughts on Business with Technology</h2>
+                <h2 className='text-2xl antialiased'>My Favourite Quote about Life</h2>
                 <hr></hr> <br></br>
-                <ul className='text-xl antialiased'>
-                    <li>- Hiking</li>
-                    <li>- Trekking</li>
-                    <li>- Swimming (not good at it though)</li>
-                    <li>- Cooking</li>
-                </ul>
-                <br></br>
+                <q cite="https://www.google.com/" className='text-xl antialiased'>Picture a wave in the ocean: you can see it measure it, its height, the way the sunlight refracts… and then it crashes on the shore and then it’s gone. But the water is still there. The wave was just a different way for the water to be for a little while. That’s one conception of death for a Buddhist. The wave returns to the ocean, where it came from, and where it’s supposed to be.</q>
+                <br></br><br></br>
             </motion.div>
 
             <Contact></Contact>
