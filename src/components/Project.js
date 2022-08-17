@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function Project(props) {
     return (
         <a href={props.link}>
-            <motion.ul className='m-6 w-96 h-auto bg-zinc-900 rounded-xl shadow-2xl text-black hover:cursor-pointer'
+            <motion.ul className='m-6 w-48 sm:w-96 h-auto bg-zinc-900 rounded-xl shadow-2xl text-black hover:cursor-pointer'
                 initial={{ opacity: 0, scale: 1, }}
                 animate={{ opacity: 1, scale: 1, }}
                 whileHover={{
