@@ -2,6 +2,8 @@ import Navbar from './components/Navbar';
 
 import Left from './components/Left';
 import Article from './components/Article';
+import Footer from './components/Footer';
+
 
 export default function App() {
   return (
@@ -13,6 +15,9 @@ export default function App() {
           <Left></Left>
           <Article></Article>
         </body>
+        <footer>
+          <Footer></Footer>
+        </footer>
     </div>
   );
 }

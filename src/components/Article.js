@@ -44,7 +44,7 @@ export default function Article() {
                     <motion.li initial={{ opacity: 0, scale: 1, }}
                         animate={{ opacity: 1, scale: 1, }}
                         transition={{ duration: 0.5 }}
-                    ><Project title="E-Commerce Shopping Website for Fast Food Chains" lifecycle="Developing" tech="React JS + Tailwind CSS + PostCSS + Axios + Spring Boot (JDK 18) + Mysql" link="https://github.com/horserosemilkshake/family-bucket"></Project></motion.li>
+                    ><Project title="E-Commerce Shopping Website for Fast Food Chains" lifecycle="Developing" tech="React.js + Tailwind CSS + PostCSS + Axios + Spring Boot (JDK 18) + Mysql" link="https://github.com/horserosemilkshake/family-bucket"></Project></motion.li>
                     <motion.li initial={{ opacity: 0, scale: 1, }}
                         animate={{ opacity: 1, scale: 1, }}
                         transition={{ duration: 1.0 }}><Project title="Room Scheduler for CityU Campus" lifecycle="Completed" tech="Spring Boot + Thymeleaf + Tailwind CSS"></Project></motion.li>
