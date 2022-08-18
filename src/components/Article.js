@@ -12,14 +12,14 @@ export default function Article() {
     function handleScroll() {
         if (window.innerWidth > 648) {
             document.getElementById("article").scroll({
-                top: document.getElementById("article").offsetHeight,
+                top: document.getElementById("article").offsetHeight * 10,
                 left: 0,
                 behavior: 'smooth',
             });
         }
         else {
             window.scroll({
-                top: document.body.offsetHeight,
+                top: document.body.offsetHeight * 10,
                 left: 0,
                 behavior: 'smooth',
             });
@@ -83,7 +83,7 @@ export default function Article() {
                 <button type="button" title="Skip to the Contact Section" onClick={handleScroll} className="bg-yellow-500 w-12 h-12 p-4 rounded-full text-black text-center"><Mailbox></Mailbox></button>
             </motion.div>
 
-            <motion.div className='flex flex-row items-baseline bg-neutral-700 rounded-xl px-4 py-2 w-[30rem] my-2 hover:animate-pulse'
+            <motion.div className='flex flex-row items-baseline bg-neutral-700 rounded-xl px-4 py-2 w-[15rem] sm:w-[30rem] my-2 hover:animate-pulse'
                     initial={{ opacity: 0, left: -200, }}
                     animate={{ opacity: 1, left: 0,}}
                     transition={{ duration: 1.5 }}
